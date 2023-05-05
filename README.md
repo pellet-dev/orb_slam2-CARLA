@@ -28,4 +28,5 @@ ROS2 node that runs ORB SLAM2 in CARLA Simulator using ROS
     $ ros2 launch orb_slam2-CARLA slam_launch.py
 
  Run ORB_SLAM in stereo mode:
-    $ ros2 run orb_node stereo-node PATH_TO_VOCABULARY PATH_TO_YAML_CONFIG_FILE false
+ 
+    $ ros2 run orb_node stereo-node PATH_TO_VOCABULARY PATH_TO_YAML_CONFIG_FILE BOOL_RECTIFY
